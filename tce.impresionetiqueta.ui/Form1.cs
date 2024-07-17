@@ -47,14 +47,15 @@ namespace tce.impresionetiqueta.ui
                             {
                                 BarcodeSettings settings = new BarcodeSettings();
                                 settings.Type = BarCodeType.EAN13;
-                                settings.Data = item.codigoEAN;
-                                settings.UseChecksum = CheckSumMode.ForceEnable;
+                                settings.Data = dr.Cells[5].Value.ToString();
+                                //settings.UseChecksum = CheckSumMode.ForceEnable;
                                 settings.ShowTextOnBottom = true;
                                 settings.TextAlignment = StringAlignment.Center;
                                 BarCodeGenerator generator = new BarCodeGenerator(settings);
                                 Image image = generator.GenerateImage();
                                 image.Save("EAN-13.png", System.Drawing.Imaging.ImageFormat.Png);
                                 item.imagenEtiqueta = File.ReadAllBytes("EAN-13.png");
+                                File.Delete("EAN-13.png");
                                 //using (var ms = new MemoryStream())
                                 //{
                                 //    image.Save(ms, image.RawFormat);
