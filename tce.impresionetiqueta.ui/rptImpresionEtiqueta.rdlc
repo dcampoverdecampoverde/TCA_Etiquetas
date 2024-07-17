@@ -6,16 +6,16 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>2.5cm</Width>
+              <Width>2.66316cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.34125cm</Width>
+              <Width>2.2751cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.61806cm</Width>
+              <Width>1.78122cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.98847cm</Width>
+              <Width>2.15163cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -222,7 +222,7 @@
                             <TextRun>
                               <Value>=Fields!descripcionProducto.Value</Value>
                               <Style>
-                                <FontSize>7pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -266,7 +266,7 @@
                             <TextRun>
                               <Value>MODELO</Value>
                               <Style>
-                                <FontSize>6pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -301,7 +301,7 @@
                             <TextRun>
                               <Value>=Fields!modeloProducto.Value</Value>
                               <Style>
-                                <FontSize>7pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -344,7 +344,7 @@
                             <TextRun>
                               <Value>No. DE SERIE</Value>
                               <Style>
-                                <FontSize>6pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -377,7 +377,7 @@
                             <TextRun>
                               <Value>=Fields!serialProducto.Value</Value>
                               <Style>
-                                <FontSize>7pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -410,7 +410,7 @@
                             <TextRun>
                               <Value>RUC</Value>
                               <Style>
-                                <FontSize>6pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -443,7 +443,7 @@
                             <TextRun>
                               <Value>0991515712001</Value>
                               <Style>
-                                <FontSize>7pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -481,7 +481,7 @@
                             <TextRun>
                               <Value>IMPORTADO POR     SAFIED S.A.</Value>
                               <Style>
-                                <FontSize>6pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -516,7 +516,7 @@
                             <TextRun>
                               <Value>CONTENIDO</Value>
                               <Style>
-                                <FontSize>6pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -549,7 +549,7 @@
                             <TextRun>
                               <Value>=Fields!contenido.Value</Value>
                               <Style>
-                                <FontSize>7pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -574,7 +574,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.6cm</Height>
+              <Height>0.70611cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -587,7 +587,7 @@
                             <TextRun>
                               <Value>DIRECCION:      RUMICHACA 822 Y V.M. RENDON</Value>
                               <Style>
-                                <FontSize>6pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -622,7 +622,7 @@
                             <TextRun>
                               <Value>PAIS ORIGEN</Value>
                               <Style>
-                                <FontSize>6pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -655,7 +655,7 @@
                             <TextRun>
                               <Value>=Fields!paisOrigen.Value</Value>
                               <Style>
-                                <FontSize>7pt</FontSize>
+                                <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -733,8 +733,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>dsEtiquetas</DataSetName>
-        <Height>6.12194cm</Height>
-        <Width>8.44778cm</Width>
+        <Height>6.22805cm</Height>
+        <Width>8.87111cm</Width>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -743,13 +743,13 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2.45199in</Height>
+    <Height>6.22805cm</Height>
     <Style />
   </Body>
-  <Width>3.35194in</Width>
+  <Width>9.02546cm</Width>
   <Page>
-    <PageHeight>8cm</PageHeight>
-    <PageWidth>8cm</PageWidth>
+    <PageHeight>10cm</PageHeight>
+    <PageWidth>10cm</PageWidth>
     <LeftMargin>0.5cm</LeftMargin>
     <RightMargin>0.5cm</RightMargin>
     <TopMargin>0.5cm</TopMargin>
