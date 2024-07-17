@@ -31,14 +31,10 @@ namespace tce.impresionetiqueta.ui
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.bsFuenteDatos = new System.Windows.Forms.BindingSource(this.components);
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.bsFuenteDatos = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bsFuenteDatos)).BeginInit();
             this.SuspendLayout();
-            // 
-            // bsFuenteDatos
-            // 
-            this.bsFuenteDatos.DataSource = typeof(tce.impresionetiqueta.models.clases.clsEtiquedaDto);
             // 
             // reportViewer1
             // 
@@ -52,6 +48,10 @@ namespace tce.impresionetiqueta.ui
             this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(852, 535);
             this.reportViewer1.TabIndex = 0;
+            // 
+            // bsFuenteDatos
+            // 
+            this.bsFuenteDatos.DataSource = typeof(tce.impresionetiqueta.models.clases.clsEtiquedaDto);
             // 
             // frmRpImpresion
             // 

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using IronXL;
+using Microsoft.Reporting.WinForms;
 using Spire.Barcode;
 using tce.impresionetiqueta.models.clases;
 
@@ -47,7 +48,7 @@ namespace tce.impresionetiqueta.ui
                             {
                                 BarcodeSettings settings = new BarcodeSettings();
                                 settings.Type = BarCodeType.EAN13;
-                                settings.Data = dr.Cells[5].Value.ToString();
+                                settings.Data = item.codigoEAN;
                                 //settings.UseChecksum = CheckSumMode.ForceEnable;
                                 settings.ShowTextOnBottom = true;
                                 settings.TextAlignment = StringAlignment.Center;
