@@ -109,6 +109,7 @@ namespace tce.impresionetiqueta.ui
                 if (file.ShowDialog() == DialogResult.OK)
                 {
                     btnSeleccionar.Enabled = false;
+                    btnProcesar.Enabled = false;
                     string fileExt = Path.GetExtension(file.FileName); //get the file extension
                     if (fileExt.CompareTo(".xls") == 0 || fileExt.CompareTo(".xlsx") == 0)
                     {
@@ -118,17 +119,20 @@ namespace tce.impresionetiqueta.ui
                             //dgvDatos.Visible = true;
                             dgvDatos.DataSource = dtExcel;
                             btnSeleccionar.Enabled = true;
+                            btnProcesar.Enabled = true;
                         }
                         catch (Exception ex)
                         {
                             btnSeleccionar.Enabled = true;
+                            btnProcesar.Enabled = true;
                             MessageBox.Show(ex.Message.ToString());
                         }
                     }
                     else
                     {
                         btnSeleccionar.Enabled = true;
-                        MessageBox.Show("Please choose .xls or .xlsx file only.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error); //custom messageBox to show error
+                        btnProcesar.Enabled = true;
+                        MessageBox.Show("Por favor seleccione un archivo con extension .xls o .xlsx unicamente.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning); //custom messageBox to show error
                     }
                 }
             }

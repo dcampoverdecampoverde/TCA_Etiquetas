@@ -9,7 +9,7 @@
               <Width>2.73812cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.35007cm</Width>
+              <Width>2.6323cm</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1.85618cm</Width>
@@ -190,7 +190,7 @@
                             <TextRun>
                               <Value>=Fields!descripcionProducto.Value</Value>
                               <Style>
-                                <FontSize>6.5pt</FontSize>
+                                <FontSize>8.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -515,7 +515,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!contenido.Value</Value>
+                              <Value>=Fields!contenido.Value + " Pieza(s)"</Value>
                               <Style>
                                 <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -553,7 +553,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>DIRECCION:      RUMICHACA 822 Y V.M. RENDON</Value>
+                              <Value>DIRECCION: RUMICHACA 822 Y V.M. RENDON</Value>
                               <Style>
                                 <FontSize>6.5pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
@@ -701,7 +701,7 @@
         <DataSetName>dsEtiquetas</DataSetName>
         <Top>0.70556cm</Top>
         <Height>6.7754cm</Height>
-        <Width>9.17097cm</Width>
+        <Width>9.4532cm</Width>
         <Style>
           <Border>
             <Style>Solid</Style>
@@ -713,7 +713,7 @@
     <Height>7.48097cm</Height>
     <Style />
   </Body>
-  <Width>9.17097cm</Width>
+  <Width>9.4532cm</Width>
   <Page>
     <PageHeight>7.5cm</PageHeight>
     <PageWidth>10cm</PageWidth>
