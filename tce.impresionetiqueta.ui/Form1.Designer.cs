@@ -89,7 +89,7 @@ namespace tce.impresionetiqueta.ui
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnProcesar);
             this.Name = "Form1";
-            this.Text = "Impresion Etiquetas";
+            this.Text = "Impresion Etiquetas V1.1";
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

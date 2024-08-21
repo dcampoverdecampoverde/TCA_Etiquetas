@@ -33,6 +33,7 @@ namespace tce.impresionetiqueta.ui
         private void frmRpImpresion_Load(object sender, EventArgs e)
         {
             lGenerarReportePDF("rptImpresionEtiqueta.rdlc", new List<ReportDataSource> { new ReportDataSource("dsEtiquetas", listaEtiquetdaData) });
+            this.Hide();
         }
 
         private void lGenerarReportePDF(string tsnombreReporte, List<ReportDataSource> toListReportDataSource, List<ReportParameter> toListReportParameter = null)
